@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Char Creator🧙‍♂️</title>
+    <link rel="icon" href="/img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/css/CharEstilo.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="CreateChar.js" defer></script>
+    
+  </head>
+  <body>
+    <nav class="barra-navegacao">
+      <img alt="Logo LoniMaple"
+        class="barra-navegacao__logotipo"
+        src="/img/Logo_Loni.png"
+      />
+    <nav class="links">
+      <a href="index.html">🏠 Pagina Inicial</a>
+    </nav>
+    </nav>
+        <header class="cabecalho">
+            <h1 class="cabecalho__titulo">Char Creator🧙‍♂️</h1>
+            <h2 class="explain">Seus stats serão gerados apartir de 2D6 para cada estatus base!</h2>
+        </header>
+        <header class="idh-box">
+            <div class="CharPhoto">
+                <img alt="Logo LoniMaple"
+                class="CharPhoto"
+                src="/img/amelia.png"
+                />
+            </div>
+            <br>
+            <div class="user-input-char-name">
+                <label for="char-name">🧾Nome: </label>
+                <input id="char-name" name="char-name" type="text"/>
+            </div>
+            <div class="char-stats">
+                <span id="exibir-info">📟Status: </span>
+                <span id="exibir-info-b">------ </span>
+                <br>
+                <img alt="Force Icon" 
+                class="char-stats-icons" src="/img/Amelia_knife.png"/>
+                <span id="exibir-info">Force: </span>
+                <span id="exibir-force">[0]</span>
+                <br>
+                <img alt="Velocity Icon" 
+                class="char-stats-icons" src="/img/speed.png"/>
+                <span id="exibir-info">Velocity: </span>
+                <span id="exibir-velocity">[0]</span>
+                <br>
+                <img alt="Magic Powe Icon" 
+                class="char-stats-icons" src="/img/magicalPower.png"/>
+                <span id="exibir-info">Magic Power: </span>
+                <span id="exibir-magic-power">[0]</span>
+                <br>
+                <img alt="Resistance Icon" 
+                class="char-stats-icons" src="/img/resistance.png"/>
+                <span id="exibir-info">Resistance: </span>
+                <span id="exibir-resistance">[0]</span>
+                <br>
+                <img alt="Luck Icon" 
+                class="char-stats-icons" src="/img/luck.png"/>
+                <span id="exibir-info">Luck: </span>
+                <span id="exibir-luck">[0]</span>
+                
+                <br>
+                
+                
+               
+                
+                
+                
+                
+            </div>
+            <button onclick="print()">Gerar Char🧝‍♀️</button>
+            <br>
+            <div class="user-input-char-name">
+                <label for="char-load-name">🧾Nome: </label>
+                <input id="char-load-name" name="char-load-name" type="text"/>
+            </div>
+            <button onclick="CheckNameDisponibilityOnJSON()">Carregar Char🧝‍♀️</button>
+            <br>
+            <span id="exibir-char-salvo">------</span>
+        </header>
+    </body>
+</html>

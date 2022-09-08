@@ -1,0 +1,41 @@
+.char-stats{
+    background-color: rgb(238, 204, 204);
+    color: brown;
+    font-size: 26px;
+    border-radius: 8px;
+    border-color: black;
+    border-style: groove;
+    position: relative;;
+}
+.char-stats-icons{
+    max-width: 48px;
+    max-height: 48px;
+}
+.links{
+    font-size: 22px;
+    color: brown;
+    background-color: rgb(216, 192, 241);
+    border-radius: 8px;
+    border-color: black;
+    border-style: groove;
+    position: relative;;
+
+
+}
+.barra-navegacao{
+    image-rendering: optimizeSpeed;
+    object-fit: scale-down;
+}
+.barra-navegacao__logotipo{
+    max-width: 720px;
+    width: 100%;
+    height: auto;
+    object-fit: scale-down;
+}
+
+body{
+    background-color: rgb(59, 143, 143);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
